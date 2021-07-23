@@ -1,0 +1,29 @@
+{
+    "name": "@dcorg/xlsx",
+    "version": "1.0.0",
+    "description": "基于xlsx,简单的导出文件工具",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "rollup -c",
+        "docs": "docsify serve docs"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/dc-ken-jiu/dc-xlsx.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/dc-ken-jiu/dc-xlsx/issues"
+    },
+    "homepage": "https://github.com/dc-ken-jiu/dc-xlsx#readme",
+    "devDependencies": {
+        "rollup": "^2.53.3",
+        "rollup-plugin-commonjs": "^10.1.0",
+        "rollup-plugin-node-resolve": "^5.2.0"
+    },
+    "dependencies": {
+        "xlsx": "^0.17.0"
+    }
+}
